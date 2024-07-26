@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pokémon Info | know your Pk!!!</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./s-assets/logo-pokemon-79x45.png" type="image/x-icon">
 </head>
-<body>
-    <div class="container">
-        <h1>Pokemon Info</h1>
 
+<body>
+
+    <img class="space-bettwen" src="./s-assets/logo-pokemon-79x45.png" alt="Pokemon Logo!">
+    <div class="container">
+        <h1>Pokémon Info</h1>
+        <p>Digite o nome do seu Pokémon favorito e conheça sua força!!!</p>
+       
+        <!-- entrada do nome do pokemo  -->
         <input type="text" id="pokemonName" placeholder="Enter Pokemon name...">
+        
+        <!-- accao para busca -->
         <button id="fetchButton">Fetch Info</button>
         <div class="pokemonInfo"></div>
     </div>
     <script src="./Java.js"></script>
 </body>
+
 </html>
