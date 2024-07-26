@@ -20,6 +20,7 @@ document.getElementById('fetchButton').addEventListener('click', function() {
                         <div>Name: ${data.name}</div>
                         <div>Height: ${data.height}</div>
                         <div>Weight: ${data.weight}</div>
+                       <div> <a href="https://www.google.com/search?q=${data.name}">more info!</a></div>
                     </div>
                 `;
                 pokemonInfoDiv.innerHTML = pokemonData;
