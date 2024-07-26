@@ -28,4 +28,4 @@ O projeto consiste em três arquivos principais:
 1. Clone o repositório para o seu ambiente local:
 
    ```bash
-   git clone https://github.com/seu-usuario/pokemon-info-fetcher.git
+   git clone https://github.com/JLB-101/learn-api.git
